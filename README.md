@@ -1,8 +1,8 @@
 InsTalks
 ========
 
-Node.js + Socket.ioでつくるチャットシステム
-
+Node.js + Socket.ioでつくるチャットシステムのサンプル
+http://fk82.rackbox.net:3000/
 
 特徴
 ====
@@ -15,3 +15,5 @@ Node.js + Socket.ioでつくるチャットシステム
 ============
 
 Node.js, Socket.io, CoffeeScript, Redis, TwitterBootstrap
+
+
