@@ -1,0 +1,38 @@
+!!! 5
+//if lt IE 7 ]><html class="ie ie6" lang="en">
+//if IE 7 ]><html class="ie ie7" lang="en">
+//if IE 8 ]><html class="ie ie8" lang="en">
+// [if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]
+head
+  meta(charset='utf-8')
+  title InsTalks
+  meta(name='description', content='ログイン不要の簡単チャット')
+  meta(name='author', content='@fukayatsu')
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+  != css('bootstrap')
+  != css('bootstrap-responsive')
+
+//body(style="padding-top: 60px; padding-bottom: 40px;") // move to bootstrap-responsive.css
+body
+  .navbar.navbar-fixed-top
+    .navbar-inner
+      .container
+        a.btn.btn-navbar(data-toggle="collapse", data-target=".nav-collapse")
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.brand(href="/") InsTalks
+        .nav-collapse
+          ul.nav
+            li.active
+              a(href="/") Home
+
+  != body
+
+  != js('jquery')
+  != js('bootstrap')
+  script(src="/socket.io/socket.io.js")
+  != js('socket_handlers')
+
+| </html>

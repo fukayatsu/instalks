@@ -1,0 +1,20 @@
+div.container
+  div.row
+    div.span8
+      a="client: "
+      a#local=""
+      form.well.form-inline
+        a=" "
+        input.input-large#topic(placeHolder="talk for ...")
+        a=" "
+        button.btn.btn-primary(type="button", onClick="set_topic()") Set topic
+
+    div.span8
+      form.well.form-inline
+        input.input-small#name(placeHolder="name")
+        a=" "
+        input.input-large#message(placeHolder="message...")
+        a=" "
+        button.btn.btn-primary(type="button", onClick="send_message()") Send
+      div#talk-log
+
