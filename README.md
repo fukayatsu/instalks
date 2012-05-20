@@ -2,7 +2,6 @@ InsTalks
 ========
 
 Node.js + Socket.ioでつくるチャットシステムのサンプル
-http://fk82.rackbox.net:3000/
 
 特徴
 ====
